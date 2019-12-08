@@ -1,0 +1,19 @@
+.App * {
+  box-sizing: border-box;
+}
+
+.App__title {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.App__players {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+.App__player {
+  margin: 20px;
+  flex: 0 1 400px;
+}
